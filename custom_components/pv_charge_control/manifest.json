@@ -1,0 +1,12 @@
+{
+  "domain": "pv_charge_control",
+  "name": "PV Charge Control",
+  "codeowners": ["@nocon"],
+  "config_flow": true,
+  "documentation": "https://github.com/nocon/pv_charge_control",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/nocon/pv_charge_control/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

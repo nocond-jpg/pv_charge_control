@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "PV Charge Control",
+        "description": "Wskaz encje do sterowania ladowaniem z nadwyzki PV.",
+        "data": {
+          "soc_entity": "SoC magazynu (%)",
+          "pv_power_entity": "Moc produkcji PV (W)",
+          "house_power_entity": "Zuzycie domu (W)",
+          "battery_power_entity": "Moc baterii (W)",
+          "charge_current_main": "Natezenie ladowarki glownej (6-16A)",
+          "charge_current_second": "Natezenie ladowarki drugiej (3-16A, opcjonalna)",
+          "switch_car": "Przelacznik blokady z auta (opcjonalny)",
+          "switch_charger": "Przelacznik blokady z ladowarki (opcjonalny)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Parametry sterowania",
+        "data": {
+          "min_soc": "Minimalny SoC magazynu (%)",
+          "voltage": "Napiecie sieci (V)",
+          "phases": "Liczba faz",
+          "battery_power_inverted": "Odwroc znak mocy baterii",
+          "hysteresis_w": "Margines na podniesienie pradu (W)",
+          "update_interval": "Interwal aktualizacji (s)",
+          "switch_car_on_allows": "Przelacznik auta: on = pozwol ladowac",
+          "switch_charger_on_allows": "Przelacznik ladowarki: on = pozwol ladowac"
+        }
+      }
+    }
+  }
+}
